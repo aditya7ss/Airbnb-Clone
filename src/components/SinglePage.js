@@ -2,8 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { placesStore } from '../store/Store'
 import "../styles/SinglePage.css"
-import { FaAirbnb } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import { FaStar } from "react-icons/fa"
 import { IoMdThumbsUp } from "react-icons/io"
 import { FaKey } from "react-icons/fa";
@@ -18,6 +16,7 @@ import { createContext } from 'react';
 import "../styles/Tabs.css";
 
 const SinglePage = () => {
+
 
     const [buttonOpen, setButtonOpen] = useState(false);
     const [buttonClose, setButtonClose] = useState(true);
@@ -164,7 +163,7 @@ const SinglePage = () => {
 
 
             <SinglePageMiddle />
-
+            
             <Footer1 />
 
             <Footer2 />

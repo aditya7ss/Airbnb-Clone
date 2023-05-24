@@ -1,5 +1,40 @@
-.map-hold{
+.map-hold {
+  position: absolute;
+  top: 200rem;
+  left: 20rem;
+}
+
+/* CSS for google map */
+
+.line2 {
     position: absolute;
-    top: 200rem;
-    left: 20rem;
+    top: 80rem;
+    left: 5rem;
+}
+
+.maparrangement{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     top: 100px;
+     margin-bottom: 12vh;
+}
+
+.mapouter {
+  position: relative;
+  text-align: center;
+  width: 644px;
+  height: 369px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 200vh;
+  height: 369px;
+  filter: blur(2px);
+  -webkit-filter: blur(1px);
+}
+.gmap_iframe {
+  width: 644px !important;
+  height: 369px !important;
 }

@@ -14,7 +14,7 @@ import { AiOutlinePlusCircle } from "react-icons/ai"
 import { AiOutlineMinusCircle } from "react-icons/ai"
 import Select from 'react-select';
 import { IoLocationOutline } from "react-icons/io5";
-
+import Banner from './Banner';
 import { LoginSocialGoogle } from 'reactjs-social-login';
 import { StickyContainer, Sticky } from 'react-sticky';
 import GoogleButton from 'react-google-button'
@@ -360,7 +360,7 @@ const Home = ({ toggle, setToggle }) => {
           <div className="flex justify-end items-center relative">
             <div className="flex mr-4 items-center">
               <div className="inline-block py-2 px-3 hover:bg-gray-200 rounded-full" href="#">
-                <div className="flex items-center relative cursor-pointer whitespace-nowrap">Become a host</div>
+                <div className="flex items-center relative cursor-pointer whitespace-nowrap">Airbnb your home</div>
               </div>
               <div className="block relative">
                 <button type="button" className="inline-block py-2 hover:bg-gray-200 rounded-full relative ">
@@ -405,7 +405,11 @@ const Home = ({ toggle, setToggle }) => {
           </div>
         </div>
         {/* end login */}
+       
       </nav >
+      <Banner/>
+      {/* Insert Banner after navbar */}
+     
 
     </div >
   )

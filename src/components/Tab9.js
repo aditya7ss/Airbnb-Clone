@@ -2,7 +2,6 @@ import React from 'react'
 
 import { placesStore } from '../store/Store'
 import "../styles/Tab1.css";
-import { AiFillStar } from "react-icons/ai"
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

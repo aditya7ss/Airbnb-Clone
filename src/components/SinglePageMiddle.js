@@ -34,7 +34,7 @@ const SinglePageMiddle = () => {
             <p className='font-bold text-xl underline'>Learn more</p>
         </div>
 
-        <p className='spmLine2 text-gray-300'>__________________________________________________________________________________________________________</p>
+        <p className='spmLine2 text-gray-300'>______________________________________________________________________________________________________</p>
 
         <div className='section2-hold'>
             <p>Your perfect little staycation in Bali is right here. We take relaxation seriously.</p>

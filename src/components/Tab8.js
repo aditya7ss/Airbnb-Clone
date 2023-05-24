@@ -2,7 +2,6 @@ import React from 'react'
 
 import { placesStore } from '../store/Store'
 import "../styles/Tab1.css";
-import { AiFillStar } from "react-icons/ai"
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -50,27 +49,27 @@ const Tab8 = () => {
 
                                     >
                                         <SwiperSlide>
-                                            <img src={item.homeMainPic} className="cardImg" />
+                                            <img src={item.homeMainPic} alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                         <SwiperSlide>
-                                            <img src={item.carouselPic1} className="cardImg" />
+                                            <img src={item.carouselPic1}alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                         <SwiperSlide>
-                                            <img src={item.carouselPic2} className="cardImg" />
+                                            <img src={item.carouselPic2}alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                         <SwiperSlide>
-                                            <img src={item.carouselPic3} className="cardImg" />
+                                            <img src={item.carouselPic3} alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                         <SwiperSlide>
-                                            <img src={item.carouselPic4} className="cardImg" />
+                                            <img src={item.carouselPic4} alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                         <SwiperSlide>
-                                            <img src={item.carouselPic5} className="cardImg" />
+                                            <img src={item.carouselPic5} alt='cardimg' className="cardImg" />
                                         </SwiperSlide>
 
                                     </Swiper>
@@ -97,8 +96,7 @@ const Tab8 = () => {
                                         <span className='flex items-center'> <IoBedOutline className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 2} beds </p></span>
                                         <span className='flex items-center'> <GiBathtub className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 2} bath </p> </span>
                                         <span className='flex items-center'> <BiBuildingHouse className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'> {Math.floor(Math.random() * 2) + 2} floors </p></span>
-
-                                    </div>
+                                   </div>
 
                                 </Link>
                             </div>

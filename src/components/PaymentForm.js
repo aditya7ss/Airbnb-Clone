@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Form.css"
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-import Paypal from './Paypal'
+
 import Card from './Card'
 
 const PaymentForm = (props) => {
@@ -25,7 +25,6 @@ const PaymentForm = (props) => {
 
 
             <TabPanel>
-              <Paypal initialPrice={price} nameOfPlace={placesName} daysSelected={days} />
               
             </TabPanel>
 

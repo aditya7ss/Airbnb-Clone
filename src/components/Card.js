@@ -3,14 +3,11 @@ import GooglePayButton from "@google-pay/button-react";
 import "../styles/Card.css";
 import creditCard from "../styles/side.png"
 import wallet from "../styles/wal.png";
-import { Link } from 'react-router-dom';
-import { FaAirbnb } from "react-icons/fa";
+
 
 const Card = () => {
     return (
         <div className='googlePayPaymentHold'>
-
-
             <div className='gpayAsset1Hold flex justify-end'>
                 <img src={creditCard} className="cc" />
             </div>

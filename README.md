@@ -1,13 +1,16 @@
-The best air-bnb clone built using react and redux. comprising of the home page which offers you to choose the perfect stay from 100's of options.
-the navbar allowing the user to search for any destanation, select the dates and guests and thereby redirecting to the search results page.  the user can sign in with his google account.
 
-the search results page allows the user to filter out options from low to high, couple friendly and even pet friendly options.
-
-upon clicking on a certain place the user is taken to the place detail page which shows more information abot the page such reviewes, a calendar to choose dates from and much more and after the user selects his preffered dates
-
-he is then taken to the checkout page which has paypal, googlepay, visa, amex and mastercard integrated which allows the user to complete the payment
-
-DO STAR THE REPO 🌟
+Requirements:
+1. Use React to build the front-end components.
+2. Use TailwindCSS or any styling library of your choice to style the components.
+3. Make the design responsive, so it looks good on different screen sizes including
+mobile.
+4. Implement a responsive navigation menu.
+5. Use appropriate React hooks (e.g., useState, useEffect) and component
+lifecycle methods, if needed.
+6. Add any additional features or improvements you think would enhance the
+design.
+7. Implement the existing functionalities in the reference as closely as possible.
+8. A clean project structure. 🌟
 
 
 
