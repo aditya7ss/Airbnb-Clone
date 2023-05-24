@@ -5,7 +5,7 @@
 
 
 ##Requirements:
-1. Use React to build the front-end components.
+1. Use React to build the front-end components and Redux to manage the Component.
 2. Use TailwindCSS or any styling library of your choice to style the components.
 3. Make the design responsive, so it looks good on different screen sizes including
 mobile.
