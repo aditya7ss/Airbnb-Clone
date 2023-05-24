@@ -1,5 +1,5 @@
 
-Requirements:
+##Requirements:
 1. Use React to build the front-end components.
 2. Use TailwindCSS or any styling library of your choice to style the components.
 3. Make the design responsive, so it looks good on different screen sizes including
@@ -13,6 +13,14 @@ design.
 8. A clean project structure. 🌟
 
 
+##ScreenShot
+
+![Screenshot 2023-05-25 000548](https://github.com/aditya7ss/Airbnb-Clone/assets/100330745/c13fd9cd-72f6-40ff-809c-83e4a8e3e8db)
+
+![Screenshot 2023-05-25 010858](https://github.com/aditya7ss/Airbnb-Clone/assets/100330745/fe344cd4-2af3-4c26-8a9e-131fc3dd3040)
+
+
+![Screenshot 2023-05-25 003302](https://github.com/aditya7ss/Airbnb-Clone/assets/100330745/17f93fe2-ac2f-4e68-98f7-85cf8a6e8c6b)
 
 # Getting Started with Create React App
 
